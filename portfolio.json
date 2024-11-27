@@ -1,0 +1,23 @@
+{
+    "Projects": [
+      {
+        "id": 1,
+        "name": "MyShop",
+        "description": "Our first group project involved designing both the front end and back end of a website. While the site lacked interactivity—features like the search bar and other functionalities weren’t functional—we concentrated on creating an appealing visual design. The goal was to meet the foundational requirements of a website, and our primary focus was on developing the user interface and ensuring it aligned with the project criteria. This experience allowed us to explore front-end development and learn the importance of balancing design with functionality.",
+        "stack": ["HTML", "CSS", "JS"],
+        "image": "images/Myshop.jpg",
+        "image-popup": "images/Myshop.png",
+        "group": "Paul Hermel, Chloé Pons, Zoé Charrier"
+      },
+   
+      {
+        "id": 2,
+        "name": "MyShop 2",
+        "description": "In this group project, we focused on developing both the back end and front end of a website. On the back-end side, we implemented a login system allowing users to register, log in, and reset their passwords. Additionally, we created an admin panel where administrators could manage the database by adding, editing, or deleting products, users, and categories. For the front end, we designed a functional shop interface, including features like category and price filters, a search bar, a footer, and interactive product displays. This project emphasized database integration and back-end functionality, with a touch of front-end design to enhance usability.",
+        "stack": ["PHP", "MySQL", "HTML", "CSS", "JS"],
+        "image": "images/Myshop2.webp",
+        "image-popup": "images/Myshop2.png",
+        "group": "Paul Hermel, Chloé Pons, Zoé Charrier"
+      }
+    ]
+  }

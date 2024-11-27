@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Paul Hermel Portfolio</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <a href="Main.html" style="text-decoration: none; color: inherit;">
+                    <img src="images/Epitech.png" class="logo color-change" alt="logo">
+                    <span class="Epitech">EPITECH</span>
+                </a>
+            </div>
+            <div class="name-container">
+                <p class="first-name">Paul</p>
+                <p class="last-name">HERMEL</p>
+            </div>
+        </header>
+
+        <!-- Login Form -->
+        <div class="login-form">
+            <form onsubmit="validateLogin(event)">
+                <h2>Login</h2>
+                <div class="input-field">
+                    <input type="text" id="email" required />
+                    <label>Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password" required />
+                    <label>Password</label>
+                </div>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    function validateLogin(event) {
+        event.preventDefault(); // Prevent form submission
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        const validEmail = "Epitech.BCN@gmail.com";
+        const validPassword = "EpitechBCN";
+
+        if (email === validEmail && password === validPassword) {
+            window.location.href = "Academic.html"; // Redirect to Academic.html
+        } else {
+            alert("Invalid email or password. Please try again.");
+        }
+    }
+</script>
+</html>
