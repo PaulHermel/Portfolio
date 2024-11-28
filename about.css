@@ -216,8 +216,8 @@ footer {
 .image-grid .img2 {
     grid-area: img1; 
     justify-self: center; 
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
