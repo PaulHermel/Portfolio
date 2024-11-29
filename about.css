@@ -222,6 +222,10 @@ footer {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.img2:hover{
+    box-shadow: 0 10px 30px #e63946;
+    transform: scale(1.02); 
+}
 
 .image-grid .img3 {
     grid-area: img2; 
@@ -230,6 +234,10 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.img3:hover{
+    box-shadow: 0 10px 30px #e63946;
+    transform: scale(1.02);
+}
 
 .image-grid .img4 {
     grid-area: img3; 
@@ -237,6 +245,10 @@ footer {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.img4:hover{
+    box-shadow: 0 10px 30px #e63946;
+    transform: scale(1.02);
 }
 .file-upload-container {
     display: flex;
@@ -262,7 +274,10 @@ footer {
     height: 250px;
     
 }
-
+.file-upload-box:hover{
+    box-shadow: 0 10px 30px #e63946;
+    transform: scale(1.02);
+}
 .download-icon {
     font-size: 75px;
     margin-bottom: 10px;

@@ -140,6 +140,11 @@ html {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.category:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 10px 30px #e63946;
+}
+
 .category h2 {
     color: black;
     font-size: 1.5rem;
@@ -154,6 +159,29 @@ html {
 .category ul li {
     font-size: 1rem;
     margin-bottom: 10px;
+}
+.pool-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alignement vertical */
+    gap: 20px; /* Espacement entre les boîtes */
+    margin: 20px 0;
+    color: white;
+}
+
+.pool {
+    background-color: #780000; /* Couleur de fond pour distinction */
+    border: 1px solid #ff0000; /* Bordure pour style */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+    width: 30%; /* Largeur uniforme */
+    text-align: center; /* Texte centré */
+}
+
+.pool:hover{
+    box-shadow: 0 5px 15px #e63946;
+    transform: scale(1.02);
 }
 
 /* Custom Scrollbar */
